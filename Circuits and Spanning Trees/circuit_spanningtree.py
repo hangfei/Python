@@ -1,6 +1,7 @@
 import random
 import itertools
 import math
+
 def create_cities(how_many):
     if(how_many < 1 or how_many > 26):
         return "Error"
@@ -43,6 +44,7 @@ def main():
     improve_cycle(rm, d)
 
 main()
+
 
 ##sum_dist = 0
 ##current_x = directory['a'][0]
